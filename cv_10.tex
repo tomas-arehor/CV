@@ -1,0 +1,494 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.2 (3/5/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+\geometry{a4paper}
+
+\addbibresource{bibliography.bib} % Specify the bibliography file to include publications
+
+\begin{document}
+
+\header{guzmán}{López}
+{marine biologist and IT analyst student} % Your name and current job title/field
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+	
+\section{about}
+30 years
+Male, Uruguayan	
+{\color{brown} \faHome{}} Montevideo, Uruguay
+\section{contact}~
+{\color{green} \faEnvelope{}} \href{mailto:guzilop@gmail.com}{guzilop@gmail.com}
+{\color{blue} \faSend{}} \href{https://telegram.me/Guzman}{@Guzman}
+\section{languages}
+Spanish mother tongue
+English basics
+\section{programming}
+{\color{red} $\varheartsuit$} R language (6 yr)
+JavaScript, HTML5 \& CSS (3 yr)
+\faGithubAlt{} \href{https://github.com/guzmanlopez}{guzmanlopez}
+~
+also:
+SQL basics (2 yr)
+ASP.Net with C\# (< 1 yr)
+\section{OS}
+{\color{gray}\FA \faLinux} Linux (6 yr)
+\end{aside}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+\section{interests}
+
+\textbf{professional:} data analysis, research, programming, hydroacoustics, web app creation, databases, seabed habitat mapping, big data, echosounders, sonars, marine ecology, spatial analysis, fisheries, fish behaviour, geographic information systems, marine traffic analysis \textbf{personal:} friends, tango dancing (learn and teach), tango music, hiking, free software development, ocean, nature, wildlife, read.\\
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\section{education}
+
+\begin{entrylist}
+
+%------------------------------------------------
+ \entry
+ {2015-Now}
+ {IT Analyst}
+ {ORT University -- Faculty of Engineering, Montevideo}
+ {Courses until now:\\
+ 	Databases II (SQL syntax, queries, triggers) -- studying\\
+ 	Programming III (ASP.Net with C\#) -- studying\\ 	 
+ 	Databases I (SQL syntax, queries, ERM) -- 82/100 (partially approved, last exam)\\
+ 	Programming II (ASP.Net with C\#) -- 88/100 (partially approved, last exam)\\
+ 	Usability and Accessibility workshop (CSS) -- 96/100 (totally approved)\\
+ 	Programming I (JS, HTML) -- 100/100 (totally approved)\\
+ 	Computing Introduction -- 86/100 (totally approved)\\
+ 	}	 
+%------------------------------------------------
+ \entry
+ {2004-2011}
+ {Biology sciences graduate}
+ {University of the Republic -- Faculty of Sciences, Montevideo}
+ {Specialization in Oceanography}
+ \entry
+ {}
+ {\normalfont Global mark: 9.44}
+ {1 to 12 (max)}  
+ {Courses: {23 approved} / {23 total}\\
+  Exams: {26 approved} / {24 total} (+2 exonerated)} 
+ %------------------------------------------------
+ \entry
+ {2003}
+ {Bachelor}
+ {Pre-University Institute Juan XXIII, Montevideo}
+ {Specialization in Agronomy}
+ \entry
+ {}
+ {\normalfont Mark: 9}
+ {1 to 12 (max)}
+ {} 
+ %------------------------------------------------
+ \entry
+ {1998-2002}
+ {High School Student}
+ {Pallotti High School, Montevideo}
+ {Specialization in Biology}
+ \entry
+ {}
+ {\normalfont Marks: 12 (1998) -- 12 (1999) -- 11 (2000) -- 12 (2001) -- 11 (2002)}
+ {1 to 12 (max)}
+ {}
+ %------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\section{experience}
+%\subsection{Full Time}
+\begin{entrylist}
+
+%------------------------------------------------
+\entry
+{2014-Now}
+{National Direction of Aquatic Resources (DINARA)}
+{Montevideo, Uruguay}
+{\emph{Hydroacoustic consultant} \\ Acquisition, processing, visualization and analysis of scientific echosounder and sonar data. The main goals are:
+	\begin{enumerate}
+		\item Give accurately aquatic resources abundance and spatial distribution estimation using hydroacoustic methods.
+		\item Map underwater habitats.
+		\item Incorporate different free software Information Technologies to analyze acoustic sonar data.
+		\item Write technical research reports, presentations in conferences and workshops to share the knowledge achieved.\\   
+	\end{enumerate}
+	}
+\end{entrylist}
+%------------------------------------------------
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2013}
+{Project: FREPLATA II (PNUD - GEF)}
+{Montevideo, Uruguay}
+{\emph{Oceanographic data management assistant} \\ Organization, systematization and analysis of historical and new generated data relating to meteorological and oceanographic variables. The main data came from meteorological stations and oceanographic sensors mounted on buoys or fixed stations in the Río de La Plata estuary. \\}
+%------------------------------------------------
+\entry
+{2010-2012}
+{Project: Fisheries Management in Uruguay (DINARA - FAO)}
+{Montevideo, Uruguay}
+{\emph{Hydroacoustic consultant specialist} \\Acquisition, processing, visualization and analysis of scientific echosounder and sonar data. The main goals were:
+	\begin{enumerate}
+		\item Give accurately aquatic resources abundance and spatial distribution estimation using hydroacoustic methods.
+		\item Map underwater habitats.
+		\item Write technical research reports, presentations in congress and workshops to share the knowledge achieved.\\   
+	\end{enumerate}
+	}
+%------------------------------------------------
+\entry
+{2009}
+{Subprojects: Whitemouth croaker and Argentine hake (FAO - Ricaldoni Foundation)}
+{Montevideo, Uruguay}
+{\emph{Hydroacoustic technical support}\\Take part in Argentine hake ({\sppfont \color{textcolor} Merluccius hubbsi}) and Whitemouth croaker ({\sppfont \color{textcolor} Micropogonias furnieri}) fish abundance assessment surveys abroad the National Direction of Aquatic Resources research vessel Aldebarán. Analise and compare fish biomass estimations by means of hydroacoustic methods and classic swap area methodology.\\}
+%------------------------------------------------
+\entry
+{2008}
+{National Direction of Aquatic Resources (DINARA)}
+{Montevideo, Uruguay}
+{\emph{Hydroacoustic collaborator}. \\ Help acquiring, processing and visualizing acoustic data from the research survey: ``Assessment of the Hawkfish ({\sppfont \color{textcolor} Cheilodactylus bergi}) by means of hydroacoustic methods and classic swap area in the Uruguayan Exclusive Economic Zone (EEZ)'', abroad the National Direction of Aquatic Resources research vessel Aldebarán.}
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	OTHER EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\section{research surveys}
+\begin{entrylist}
+
+%------------------------------------------------
+\entry
+{2012-07}
+{Collaborator}
+{Army vessel ``ROU 72''}
+{Search lost plane near Las Flores island in the Rio de la Plata estuary using a Side Scan Sonar.}
+
+\entry
+{2011-09}
+{Hydroacoustic chief area}
+{R/V ``Aldebarán''}
+{Ban fishing area of Argentine hake {\sppfont \color{textcolor} Merluccius hubbsi}.}
+
+\entry
+{2011-04}
+{Hydroacoustic chief area}
+{R/V ``Aldebarán''}
+{Ban fishing area of Argentine hake {\sppfont \color{textcolor} Merluccius hubbsi}.}
+
+\entry
+{2010-08}
+{Hydroacoustic chief area}
+{R/V ``Aldebarán''}
+{Big pelagic fishes (swordfishes, tunas, sharks and others) in the outer Continental Shelf and Slope of the Uruguayan Exclusive Economic Zone (EEZ).}
+
+\entry
+{2010-05}
+{Hydroacoustic chief area}
+{R/V ``Aldebarán''}
+{Environmental monitoring of the Río de la Plata estuary and the oceanic coastal front; health management of bivalve molluscs.}
+
+\entry
+{2009-12}
+{Hydroacoustic chief area}
+{R/V ``Aldebarán''}
+{Survival of the Whitemouth croaker {\sppfont \color{textcolor} Micropogonias furnieri}.}
+
+\end{entrylist}
+%------------------------------------------------
+
+\begin{entrylist}
+
+\entry
+{2009-11}
+{Hydroacoustic technical support}
+{Small boat}
+{Hydroacoustic assessments in the ban fishing zone of the Río Uruguay river between kilometers 314.1 and 318.6.}
+
+\entry
+{2009-07}
+{Hydroacoustic technical support}
+{Small boat}
+{Hydroacoustic assessments of concentrations and reproduction areas of fishes with high sport fishing value in Río Uruguay river, between kilometers 314.1 and 318.6.}
+
+\entry
+{2009-03}
+{Hydroacoustic chief area}
+{R/V ``Aldebarán''}
+{Ban fishing area of Argentine hake {\sppfont \color{textcolor} Merluccius hubbsi}.}
+
+\entry
+{2008-12}
+{Hydroacoustic technical assistant}
+{R/V ``Aldebarán''}
+{Assessment of topographic characteristics.}
+
+\entry
+{2008-12}
+{Hydroacoustic chief area}
+{R/V ``Aldebarán''}
+{Coastal fisheries assessment survey.}
+
+\entry
+{2008-11}
+{Hydroacoustic technical assistant}
+{R/V ``Aldebarán''}
+{SIMRAD EK-60 echosounder calibration.}
+
+\entry
+{2008-09}
+{Hydroacoustic technical assistant}
+{R/V ``Aldebarán''}
+{Assessment of the Hawkfish ({\sppfont \color{textcolor} Cheilodactylus bergi}) by means of hydroacoustic methods and classic swap area in the Uruguayan Exclusive Economic Zone (EEZ).}
+
+\entry
+{2007-12}
+{Scientific shipboard observer}
+{F/V ``Lucía Carmen''}
+{Assessment of {\sppfont \color{textcolor} Chaceon notialis} crab in the Argentine--Uruguayan common fishing zone.}
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+\section{research projects}
+\begin{entrylist}
+	%------------------------------------------------
+	\entry
+	{2009}
+	{Initiation research scholarships}
+	{National Agency for Research and Innovation (ANII)}
+	{One year personal scholarship. The aim of the project was quantifying the benthic microalgal biomass and production (carbon fixed) in a shallow coastal lagoon.}	
+	%------------------------------------------------	
+	\entry
+	{2009}
+	{Research scholarships for students}
+	{Sectoral Commission for Scientific Research (CSIC)}
+	{One year team scholarship. The aim of the project was studying the benthic ecosystem (fauna and environment variables) in a small port.}
+	%------------------------------------------------	
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	TEACHING SECTION
+%----------------------------------------------------------------------------------------
+\section{teaching}
+\begin{entrylist}
+	%------------------------------------------------
+	\entry
+	{2012}
+	{Submarine acoustics workshop}
+	{to Marine Technical High School}
+	{One class about submarine acoustics principles, sonar types and applications and case of studies in Uruguay.}	
+	%------------------------------------------------	
+	\entry
+	{2011}
+	{Geographic Information System (GIS) approach.}
+	{to National Museum of Natural History}
+	{two theoretical and practical classes of GIS software based on QGIS.}	
+	%------------------------------------------------	
+	\entry
+	{2009}
+	{Basic Limnology course collaboration}
+	{University of the Republic}
+	{Three practical classes of physical chemistry of water.}	
+	%------------------------------------------------	
+	\entry
+	{2009}
+	{Supervision and analysis of chlorophyll samples from students research project.}
+	{University of the Republic}
+	{Preparation, extraction and determination of chlorophyll from water samples. Included data analysis and discussion with students.}	
+	%------------------------------------------------	
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+\section{communication skills}
+\begin{entrylist}	
+	%------------------------------------------------
+	\entry
+	{2014}
+	{Oral presentation}
+	{First week of sound -- Uruguayan Acoustic Association}
+	{Hydroacoustic methods applied for the studying of aquatic ecosystems in Uruguay.}
+	%------------------------------------------------		
+\end{entrylist}
+
+%------------------------------------------------
+\begin{entrylist}	
+	\entry
+	{2012}
+	{Poster}
+	{Biodiversity and ecology interdisciplinary meeting -- University of the Republic}
+	{Benthic fauna of La Paloma port and coastal adjacent areas.}
+	%------------------------------------------------	
+	\entry
+	{2011}
+	{Oral presentation}
+	{Regional Acoustic meeting -- Uruguayan Acoustic Association}
+	{Seabed habitat mapping of the upper and middle continental slope of Uruguay.}
+	%------------------------------------------------	
+	\entry
+	{2011}
+	{Oral presentation}
+	{Week of Science and Technology -- Direction for Innovation, Science and Technology development}
+	{Uruguayan seabed between 200 and 2000 meters of depth: habitats and associated fauna.}
+	%------------------------------------------------	
+	\entry
+	{2010}
+	{Poster}
+	{First Uruguayan Zoological Congress -- Uruguayan Zoological Society}
+	{Marine macromolluscs of unconsolidated bottoms from adjacent coastal area of La Paloma port.}
+	%------------------------------------------------	
+	\entry
+	{2010}
+	{Oral presentation}
+	{First Uruguayan Zoological Congress -- Uruguayan Zoological Society}
+	{Hydroacoustic assessment in Río Uruguay River and ban fishing area of port Yeruá.}
+	%------------------------------------------------	
+	\entry
+	{2009}
+	{Poster}
+	{Get out of the classroom -- Support research projects program for university students}
+	{Benthic system of La Paloma port and adjacent coastal area.}	
+	%------------------------------------------------	
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	COMPLEMENTARY EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\section{complementary education}
+
+\begin{entrylist}
+	%------------------------------------------------
+	\entry
+	{2015}	
+	{Safe practices in Laboratory}
+	{University of the Republic - Course}
+	{Mark: 8/10}
+
+	\entry
+	{2014}	
+	{Introduction to databases analysis using R}
+	{University of the Republic - Course}
+	{Approved: without mark}
+
+	\entry
+	{2014}	
+	{Linux network administration}
+	{Linux Center - Course}
+	{Mark: 100/100}
+	
+	\entry
+	{2012}	
+	{Introduction to underwater archeology}
+	{University of the Republic - Workshop}
+	{Approved: without mark}
+	
+	\entry
+	{2011}	
+	{Introduction to R language programming}
+	{University of the Republic - Course}
+	{Approved: without mark}
+	
+	\entry
+	{2011}	
+	{Seismic and acoustic imaging of sedimentary structures including hydrocarbon exploration and geohazard evaluation}
+	{University of the Republic - Postgrade course}
+	{Approved: without mark}
+	
+	\entry
+	{2011}	
+	{Associated process of water masses dynamics}
+	{University of the Republic - Postgrade course}
+	{Approved: without mark}
+	
+	\entry
+	{2009}	
+	{Fishing stocks determination methodologies}
+	{University of Buenos Aires - Postgrade course}
+	{Mark: 10/12}
+	
+	\entry
+	{2009}	
+	{Effective publication of scientific information}
+	{UNESCO - Course}
+	{Approved: without mark}
+	
+	\entry
+	{2009}	
+	{Fishing stocks evaluation models and their application on Uruguayan fishing resources}
+	{DINARA--FAO - Course}
+	{Approved: without mark}
+	
+	\entry
+	{2008}	
+	{Acoustic submarine prospections}
+	{DINARA - Meeting}
+	{Assisted: without mark}
+	
+	\entry
+	{2008}	
+	{Echoview training course}
+	{DINARA--Myriax Echoview - Course}
+	{Approved: without mark}
+	
+	\entry
+	{2008}	
+	{Scientific shipboard observer}
+	{DINARA - Course}
+	{Approved: without mark}
+\\
+\\
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+\section{publications}
+\printbibsection{article}{articles in peer-reviewed journals} % Print all articles from the bibliography
+\printbibsection{book}{books} % Print all books from the bibliography
+\begin{refsection} % This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"
+\nocite{*}
+\printbibliography[sorting=chronological, type=inproceedings, title={international peer-reviewed conferences/proceedings}, notkeyword={france}, heading=bibheading]
+\end{refsection}
+
+\begin{refsection} % This is a custom heading for those references marked as "inproceedings" and containing "keyword=france"
+\nocite{*}
+\printbibliography[sorting=chronological, type=inproceedings, title={local peer-reviewed conferences/proceedings}, keyword={france}, heading=bibheading]
+\end{refsection}
+\printbibsection{misc}{other publications} % Print all miscellaneous entries from the bibliography
+\printbibsection{report}{reports} % Print all research reports from the bibliography
+%----------------------------------------------------------------------------------------
+\end{document}
